@@ -1,0 +1,9 @@
+Explanation of the Code:
+
+LibraryApp.java: The main class, which is responsible for interacting with the user. It allows the user to choose various operations like adding, removing, editing, and borrowing books.
+
+Library.java: A class that manages a list of books, including functions for adding, removing, and editing books.
+
+Book.java: A class that defines the Book object with attributes like title, author, ISBN, genre, and availability.
+
+BookFileHandler.java: Handles file operations. It loads books from the file at the start of the program and saves changes back to the file when the user exits the program.
